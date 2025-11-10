@@ -1,0 +1,146 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+img {
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    display: block;
+    transition: all 0.3s ease;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Profile:hover {
+    border-color: red;
+    transform: scale(1.05);
+}
+
+.Profile {
+    margin: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 100, 0, 0.67);
+    width: 320px;
+    height: 370px;
+    text-align: center;
+    transition: 0.67s ease;
+    border: 1px solid rgb(74, 0, 0, 0.00);
+    transition: all 0.3s ease;
+}
+
+.Profiles {
+    margin: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 100, 0, 0.67);
+    width: 320px;
+    height: 370px;
+    text-align: center;
+    transition: 0.67s ease;
+    border: 1px solid rgb(74, 0, 0, 0.00);
+    transition: all 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.Profiles:hover {
+    border-color: red;
+    transform: scale(1.05);
+}
+
+button {
+    background-color: darkred;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+}
+
+    button:hover {
+        background-color: red;
+        box-shadow: 20px 10px 30px rgb(0, 0, 0, 0.5);
+    }
+
+
+.text {
+    background: rgb(192 200 121 / 40%);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.div2 {
+    height: 300px;
+    width: 200px;
+    border: dashed 2px grey;
+    background-color: #f9f9f9
+}
+
+.avatar {
+    background-image: url('https://bandit.camp/img/logo-seo-large.png');
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.card {
+    padding: 20px;
+    width: 320px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: white;
+    font-size: 1.6rem;
+}
+
+.button2 {
+    height: 50px;
+    width: 100px;
+    background-color: darkblue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+    border: none;
+    background-image: linear-gradient(to right, #00008B, #00BFFF);
+}
+
+.bottom-banner {
+    background-image: url('https://tse3.mm.bing.net/th/id/OIP.gTcKJD2CNLvQ_2O9vt67cQHaDV?pid=Api&P=0&h=220');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-banner {
+    height: 400px;
+    background-image: url('https://tse3.mm.bing.net/th/id/OIP.8_i4jRtmKywDOj_kUG02vQHaGn?pid=Api&P=0&h=220');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    padding: 20px;
+    min-height: 1000px;
+}
